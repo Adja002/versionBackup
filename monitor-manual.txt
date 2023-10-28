@@ -1,0 +1,43 @@
+MONITOR(1)                   User Manuals                   MONITOR(1)
+
+
+NAME
+    monitor - monitor file changes and manage backups
+
+SYNOPSIS
+    monitor
+
+DESCRIPTION
+    The `monitor` script is used to monitor changes in a directory
+    and provides real-time information about file creation, updates,
+    and deletions. This script is designed to work in conjunction
+    with the versionBackup utility, enabling users to keep track of
+    backup operations and file changes.
+
+OPTIONS
+    None
+
+FILES
+    /tmp/.monitor_in_new_terminal
+        A marker file used to check if the monitor is already running
+        in a separate terminal window.
+
+ENVIRONMENT
+    None
+
+DIAGNOSTICS
+    None
+
+BUGS
+    None
+
+AUTHOR
+Written by Adja Gueye (s2110852).
+
+SEE ALSO
+    versionBackup(1)
+
+Version: 1.0                          Last change: October 2023
+
+.SH COPYRIGHT
+Copyright © 2023 Adja Gueye. This is free software; see the source for copying conditions. There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
